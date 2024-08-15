@@ -26,6 +26,7 @@ sum     % 748317, correct as per facit with an upper for-loop bound of a million
         % since as per the article the smallest of left or right trunc
         % primes is 73939133 which is quite a long foor loop
         % check... ah fuck it we'll do a check till there in the loop.
+        % yes, we got the same answer. What a waste of time? Who knows.
 counter % 11 as the limit given
 
 function bool = lr_trun(num)
